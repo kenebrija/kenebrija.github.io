@@ -11,6 +11,7 @@
 
 body{
 	background-color:#ecf0f1;
+	
 }
 
 .row-top {
@@ -62,3 +63,9 @@ table{
     border-left: 1px solid #ccc;
 }
 
+
+.margin{
+
+    margin-right: 10px;
+    margin-left: 10px;
+}

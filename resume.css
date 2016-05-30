@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'hugs_and_kisses_xoxo_demoRg';
+    src: url('fonts/hnk-webfont.woff2') format('woff2'),
+         url('fonts/hnk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 
 body{
@@ -32,11 +41,13 @@ hr {
 
 table{
 	 position:center;
+	 font-size: 100%
          
 }
 
 .chill{
-	font-size:150%;
+	font-size:250%;
+	font-family: 'hugs_and_kisses_xoxo_demoRg';
 }
 
 .table1{

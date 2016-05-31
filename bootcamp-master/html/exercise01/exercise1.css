@@ -1,0 +1,49 @@
+.wrapper{
+	width: 960px;
+	min-height: 450px;
+	margin-top:0; 
+    margin-right:auto; 
+    margin-bottom:0; 
+    margin-left:auto;
+}
+
+.header{
+	height: 150px;
+	width: 960px;
+	background-color: yellow;
+	border: 1px solid red;
+}
+
+.footer{
+	height: 200px;
+	width: 960px;
+	background-color: red;
+	border: 1px solid blue;
+}
+
+.left{
+	width: 260px;
+	min-height: 200px;
+	background-color: blue;
+    float: left;
+    overflow:hidden;
+    border: 1px solid black;
+}
+
+.right{
+	width:700px;
+	min-height: 200px;
+	background-color: gray;
+	float:right;
+	overflow:hidden;
+	padding: 10px;
+	border: 1px solid blue;
+
+}
+
+.body{
+	display: flex;
+    width: 962px;
+    min-height: 200px;
+
+}

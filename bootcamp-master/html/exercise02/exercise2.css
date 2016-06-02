@@ -1,0 +1,159 @@
+ul li{
+	margin-top:0em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #C2BBAE;
+	margin:0;
+    padding:0;
+}
+
+dl{
+	margin-bottom: 0em;
+}
+
+
+p{
+	color: #B5A07B;
+	text-align: justify;
+	font : normal normal 12px/18px Georgia, "Times New Roman", Times, serif;
+}
+
+dt{
+	font : normal normal 11px/16px "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Lucida, Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 12px;
+}
+
+
+dd{
+	font : normal normal 11px/16px "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Lucida, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #C2BBAE;
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width: 740px;
+	min-height: 930px;
+    position: relative;
+    background-color: white;
+    margin: auto;
+    border-right: thin solid #BFBFBF;
+    border-bottom: thin solid #BFBFBF;
+}
+
+.h_img{
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+.header{
+	position: absolute;
+	top: 0;
+	overflow: hidden;
+
+}
+
+.bg{
+	position: relative;
+	width: 770px;
+	height: 950px;
+	background-image: url('img/bg.png');
+	background-size: 770px 950px;
+    background-repeat: repeat-y;
+}
+
+.body{
+	min-height: 655px;
+	width: 680px;
+
+}
+
+.center{
+	margin-top:0; 
+    margin-right:auto; 
+    margin-bottom:0; 
+    margin-left:auto;
+}
+
+.mainbody{
+	width: 450px;
+	float: left;
+	min-height: 655px;
+}
+
+.subcateg{
+	width: 200px;
+	float: right;
+	margin-top: 20px;
+}
+
+.green{
+	color: #BAD28E;
+
+}
+
+.line_break1{
+	height: 15px;
+	visibility: hidden;
+}
+
+.line_break2{
+	height: 1px;
+	visibility: hidden;
+}
+
+.hide{
+	visibility: hidden;
+	font-size: 1px;
+}
+
+.link{
+	text-decoration: none;
+}
+
+.bottom_text{
+	margin-top: 35px;
+	float: right;
+	right: 0;
+	bottom: 0;
+
+}
+
+.margin_top{
+	margin-top: 0em;
+}
+
+.margin_header{
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+
+.italic{
+	font-style:italic;
+}
+
+.left_exterior{
+	height: 35px;
+	width: 50%;
+	float:left;
+	background-color: #F6F6ED;
+	margin-top: 74px;
+	position: absolute;
+}
+
+.right_exterior{
+	height: 20px;
+	width: 50%;
+	margin-top: 122px;
+	position: absolute;
+	right: 0;
+	background-color: #F6F6ED;
+}
+
+
+.footer_list{
+	display: inline;
+	font-style: bold;
+}

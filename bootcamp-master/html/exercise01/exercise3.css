@@ -18,6 +18,7 @@
 	min-height: 100px;
 	width: 960px;
 	background-color: red;
+	overflow: hidden;
 }
 
 .body{
@@ -32,40 +33,41 @@
 	min-height: 200px;
 	overflow: hidden;
 	position: relative;
+	float: left;
 
 }
 
-.left_box1{
+.small_box {
 	width: 10px;
 	min-height: 10px;
 	background-color: white;
 	position: absolute;
-	top:0;
 }
 
-.left_box2{
+.bigger_box{
 	width: 30px;
 	min-height: 30px;
 	background-color: white;
 	position: absolute;
+}
+
+.left_box1{
+
+	top:0;
+}
+
+.left_box2{
 	top: 0;
 	right: 0;
 }
 
 .left_box3{
-	width: 10px;
-	min-height: 10px;
-	background-color: white;
-	position: absolute;
+
 	bottom: 0;
 }
 
 .left_box4{
-	width: 10px;
-	min-height: 10px;
-	float: right;
-	background-color: white;
-	position: absolute;
+
 	bottom: 0;
 	right: 0;
 }
@@ -76,7 +78,8 @@
 	min-height: 200px;
 	overflow: hidden;
 	position: relative;
-	overflow: auto;
+	float: right;
+	display: flex;
 }
 
 
@@ -104,6 +107,5 @@
 	min-height: 30px;
 	margin-top: 20px; 
     margin-left: 760px; 
-
 
 }

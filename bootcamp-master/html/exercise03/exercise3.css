@@ -1,0 +1,159 @@
+.container{
+	width: 795px;
+	min-height: 960px;
+	background-color: #FFFFFF;
+	position: relative;
+	border-top: 5px solid #D9B860;
+	border-bottom: 5px solid #D9B860;
+}
+
+
+.center{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.buttons{
+	margin-right: 10px;
+	float: right;
+}
+
+.wrapper{
+	margin: 30px;
+	width: 735px;
+	min-height: 875px;
+	background-color: red;
+	position: relative;
+}
+
+.aboutMark{
+	min-height: 94px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #F2F2F2;
+	overflow: hidden;
+}
+
+.header{
+	width: 735px;
+	min-height: 50px; 
+}
+
+.subheader{
+	font-size: 20px;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: normal;
+	background-color: orange;
+	margin-bottom: 0px;
+	float: left;
+	margin-left: 0px;
+}
+
+.col{
+	width: 225px;
+	min-height: 94px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-color: yellow;
+}
+
+.header_margin{
+	margin-top: 10px;
+	
+}
+
+.p_margin{
+	margin-top: 50px;
+}
+
+
+.clientsDiv{
+	width: 735px;
+	background-color: green;
+	position: absolute;
+}
+
+.client{
+	width: 50%;
+	min-height: 330px;
+	background-color: blue;
+	float: left;
+	margin-top: 20px;
+	border-bottom: thin solid yellow;
+	position: absolute;
+}
+
+.p_client{
+	margin-left: 10px;
+}
+
+.bottom{
+	min-height: 230px;
+	width: 100%;
+	background-color: purple;
+	position: absolute;
+}
+
+.b_col1{
+	width: 20%;
+	background-color: white;
+	float: left;
+}
+
+.b_col2{
+	width: 50%;
+	background-color: blue;
+	float: left;
+}
+
+.b_col3{
+	width: 29%;
+	background-color: blue;
+	float: left;
+	border-left: thin solid gray;
+}
+
+.icon_margin{
+	margin-top: 15px;
+}
+
+.wrapper_footer{
+	width: 100%;
+	background-color: pink;
+	bottom: 0;
+	position: absolute;
+	border-top: thin solid gray;
+}
+
+.left{
+	width: 70%;
+	background-color: orange;
+	float: left;
+}
+
+.right{
+	width: 30%;
+	float: right;
+}
+p{
+	font-size: 15px; 
+	background-color: pink;
+	margin-bottom: 30px;
+}
+
+h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+body{
+	background-color: #7F7F7F;
+}
+
+li{
+	display: inline;
+}

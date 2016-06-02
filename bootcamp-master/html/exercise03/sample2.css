@@ -1,0 +1,213 @@
+.container{
+	width: 795px;
+	min-height: 850px;
+	background-color: #FFFFFF;
+	position: relative;
+	border-top: 5px solid #D9B860;
+	border-bottom: 5px solid #D9B860;
+}
+
+.wrapper{
+	margin: 30px;
+	width: 735px;
+	min-height: 850px;
+	margin-bottom: 0;
+}
+
+.center{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header{
+	width: 100%;
+	min-height: 50px; 
+}
+
+.aboutMark{
+	width: 100%;
+	min-height: 130px;
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	background-color: #F2F2F2;
+	overflow: hidden;
+
+}
+
+.clientsDiv{
+	width: 100%;
+	min-height: 300px;
+	overflow: hidden;
+}
+
+.bottom{
+	min-height: 300px;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+
+.wrapper_footer{
+	width: 100%;
+	min-height: 50px;
+	border-top: thin solid #CCCCCC;
+	overflow: hidden;
+}
+
+
+.header_margin{
+	margin-top: 10px;
+}
+
+.buttons{
+	margin-right: 10px;
+	margin-top: 5px;
+	float: right;
+}
+
+.btn{
+	background-color: #FFFFFF;
+	border-style: groove;
+	font-family: Georgia, serif;
+	font-size: 12px;
+}
+.col{
+	width: 225px;
+	min-height: 94px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+.header_font{
+	font-size: 22px;
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.subheader{
+	margin-bottom: 0px;
+	float: left;
+	margin-left: 0px;
+}
+
+.p_margin{
+	margin-top: 50px;
+}
+
+.client{
+	width: 50%;
+	min-height: 330px;
+	float: left;
+	margin-top: 20px;
+	border-bottom: thin solid #CCCCCC;
+	overflow: hidden;
+}
+
+.p_client{
+	margin-left: 10px;
+}
+
+.b_col1{
+	width: 20%;
+	background-color: white;
+	float: left;
+	overflow: hidden;
+}
+
+.b_col2{
+	width: 50%;
+	float: left;
+	border-right: thin solid #CCCCCC;
+	overflow: hidden;
+}
+
+.b_col3{
+	width: 29%;
+	float: left;
+	overflow: hidden;
+}
+
+.icon_margin{
+	margin-top: 15px;
+}
+.left{
+	width: 70%;
+	float: left;
+}
+
+.right{
+	width: 30%;
+	float: right;
+}
+
+.page_footer{
+	min-height:50px;
+	width: 795px;
+}
+
+.align_center{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+.link{
+	color: #4E4E4E;
+}
+
+.font{
+	font-family: Georgia, serif;
+	font-weight: normal;
+}
+
+.font1{
+	font-size: 15px;
+	font-style: italic;
+}
+
+.font2{
+	font-size: 10px;
+}
+.black{
+	color: #000000;
+}
+
+.list{
+	list-style-type:square;
+}
+
+.b_footer{
+	display: inline;
+}
+p{
+	font-size: 14px; 
+	margin-bottom: 30px;
+	color: #4E4E4E;
+	font-family: Georgia, serif;
+}
+h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	font-size: 20px;
+}
+body{
+	background-color: #7F7F7F;
+}
+
+
+
+h5{
+	font-size: 20px;
+}
+
+h6{
+	margin-top: 20px;
+	margin-left: 10px;
+}

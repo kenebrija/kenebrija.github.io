@@ -1,0 +1,278 @@
+.header{
+	width: 100%;
+	min-height: 80px;
+	background-color: #333333 ;
+	margin-top:0;
+	position: relative;
+	overflow: hidden;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+	width:960px;
+	min-height: 800px;
+	margin: 0 auto 0 auto;
+	position: relative;
+}
+
+.title{
+	min-height: 50px;
+	margin-bottom: 25px;
+	overflow: hidden;
+
+}
+
+.title-header{
+	min-height: 120px;
+	border-bottom: dotted #C9C9C9;
+}
+
+.container .title img{
+	display: inline-block;
+	margin-top: 40px;
+}
+.title-desc{		
+	border-bottom: dotted #C9C9C9;
+}
+.title-desc span{
+	font-weight: bold;
+	font-size: 15px;
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-desc p{
+	font-size: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #6C6C6C;
+}
+body{
+	margin:0;
+}
+
+h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #F7F7F7;
+	padding: 25px 0px 25px 20px;
+	font-weight: normal;
+	font-size: 35px;
+	float:left;
+}
+
+.header ul{
+	float: right;
+	padding-top: 25px;
+	padding-left: 50px;
+	margin-right: 20px;
+}
+
+.header ul li{
+	display: inline-block;
+	color: #F7F7F7;
+	list-style: none;
+}
+
+.header ul li a{
+	color: #F7F7F7;
+	text-decoration: none;
+}
+
+.header ul li a:hover{
+	color: #6C968A;
+	text-decoration: none;
+}
+
+.categories{
+	min-height: 235px;
+	overflow: hidden;
+	float: left;
+	border-bottom: dotted #C9C9C9;
+	padding-bottom: 25px;
+}
+
+
+.categories div{
+	min-height: 207px;
+	width:30%;
+	overflow: hidden;
+	background-color: #01AEF0;
+}
+
+
+.col1{
+	float: left;
+	margin-right: 45px;
+}
+.col2{
+	float: left;
+}
+.col3{
+	float: right;
+	margin-right: 0px;
+}
+
+h2{
+	
+	font-size:28px; 
+	font-weight: normal;	
+	padding-bottom: 10px;
+	border-bottom: dotted #F5F4FF;
+	margin-top: 16px;
+
+}
+
+
+.categories p{
+	font-size:15px;
+}
+
+h2, .categories p {
+	text-align: center;
+	margin-left:13px;
+	margin-right: 13px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #F5F4FF;
+}
+
+
+.title, .categories{
+	margin-right: 25px;
+	margin-left: 25px;
+}
+
+
+.categories a{
+	display: block;
+	min-height: 40px;
+	width: 90%;
+	background-color: #0079A0;
+	margin: 15px auto 20px auto;
+	font-size: 13px;
+	border: 2px solid #0D6B8D;
+	color: #B4D3EF;
+}
+
+.categories a:hover{
+	background-color: #535F6D;
+}
+
+.bottom{
+	min-height: 200px;
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+
+
+.bottom_left{
+	width: 453px;
+	min-height: 200px;
+	border-right: dotted #C9C9C9;
+	margin: 25px 0 25px 25px;
+	float: left;
+	overflow: hidden;
+}
+
+
+.bottom_right{
+	width: 452px;
+	min-height: 200px;
+	/**border-left:dotted #C9C9C9;**//
+	overflow: hidden;
+	float:right;
+	margin: 25px 25px 25px 0;
+}
+
+h3{
+	margin-top: 0;
+	margin-bottom: 30px;
+	font-weight: normal;
+	color: #707070;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.testimonials{
+	width: 100%;
+	min-height: 100px;	
+	margin-bottom: 20px;
+	margin-top: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.testimonials p {
+	margin-left: 100px;
+	font-size: 15px;	
+	margin-right: 30px;
+	margin-top: 10px;
+	color: #707070;
+}
+.testimonials img{
+	border: 3px solid #CCCCCC;
+	float: left;
+}
+
+
+.bottom_right p ,h4, .bottom_right a, .bottom_right img{
+	margin-left: 30px;
+}
+
+.right_header{
+	margin-top: 0;
+	font-weight: normal;
+	font-size: 20px;
+	color: #707070;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold{
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.link{
+	color: #75C9EE;
+	font-weight: normal;
+	font-size:12px;
+}
+
+h4{
+	color: #959094;
+	font-weight: normal;
+	margin-bottom: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.desc{
+	margin-top: 0;
+	font-size: 12px;
+	margin-bottom: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #978E8F;
+}
+
+
+.footer{
+	min-height: 55px;
+	width: 95%;
+	float: left;
+	border-top: dotted #C9C9C9;
+	margin-left: 25px;
+	margin-right: 25px;
+	overflow: hidden;
+	position: relative;
+}
+
+.footer p{
+	color: #959094;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+
+h5{
+	margin-bottom: 0;
+	margin-top: 0;
+}

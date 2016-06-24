@@ -1,0 +1,33 @@
+.navbar{
+	width: 100%;
+	min-height: 100px;
+	background-color: #bdc3c7;
+}
+
+body{
+	margin: 0;
+}
+
+
+.menu{
+	width: 350px;
+	min-height: 100px;
+	float: right;
+}
+.navbar img{
+	float: left; 
+}
+
+.navbar h1,.navbar a{
+	font-size:20px;
+	font-weight: normal;
+	float: left;
+	margin-right: 30px;
+	margin-top: 35px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #4b4843;
+}
+
+.navbar a:hover{
+	color: #fffefd;
+}

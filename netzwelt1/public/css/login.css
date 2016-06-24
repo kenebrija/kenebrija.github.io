@@ -1,0 +1,57 @@
+.container{
+	width: 900px;
+	min-height: 400px;
+	background-color: #bdc3c7;
+	margin: 180px auto 0 auto;
+	position: relative;
+}
+.logo{
+	width: 50%;
+	min-height: 100px;
+	float: left;
+}
+
+.logo img{
+	display: block;
+	margin-left: 150px;
+
+}
+
+.login{
+	float: left;
+	width: 49%;
+	min-height: 100px;
+	margin-top: 80px;
+}
+body{
+	background-color: #bdc3c7;
+}
+
+
+input, button{	
+	float: left;
+	display: block;
+	margin:10px 200px 15px 10px;
+	border-radius:2px;
+	border: thin solid black;
+	box-shadow: 2px 2px 5px #4b4843;
+	background-color: #bdc3c7;
+
+}
+
+
+button{
+	height: 30px;
+	width: 60px;
+	color: #4b4843;
+	margin-left: 80px;
+}
+input{
+	width: 200px;
+	height: 25px;
+}
+
+button:hover, input:hover{
+	background-color: #4b4843;
+	color: #fffefd;
+}

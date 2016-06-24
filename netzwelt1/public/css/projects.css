@@ -1,0 +1,38 @@
+.button_container{
+	width:40%;
+	min-height: 50px;
+	margin: 20px auto 0 auto;
+	padding-left: 200px;
+
+}
+
+
+.projects{
+	width: 60%;
+	min-height: 100px;
+	margin: 10px auto 0 auto;
+	background-color: #F7EEE1;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+a:hover{
+	color:#87765F;
+}
+tr:nth-child(even){
+	background-color: #B7B0A5
+}
+
+th {
+    background-color: #4b4843;
+    color: white;
+}

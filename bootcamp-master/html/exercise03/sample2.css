@@ -21,14 +21,13 @@
 	margin-left: auto;
 }
 
-.header{
+.row1_header{
 	width: 100%;
 	min-height: 50px; 
 }
 
-.aboutMark{
+.row2_aboutMark{
 	width: 100%;
-	min-height: 130px;
 	border-top: 1px solid #CCCCCC;
 	border-bottom: 1px solid #CCCCCC;
 	background-color: #F2F2F2;
@@ -36,25 +35,29 @@
 
 }
 
-.clientsDiv{
+.row3_clients{
 	width: 100%;
-	min-height: 300px;
-	overflow: hidden;
+	min-height: 320px;
+	margin-left: 10px;
 }
 
-.bottom{
-	min-height: 300px;
+.row4_news{
+	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
+	border-top: 1px solid #CCCCCC;
 
 }
 
 
-.wrapper_footer{
+.row3_clients p{
+	margin-right: 33px;
+}
+.row5_footer{
 	width: 100%;
-	min-height: 50px;
+	min-height: 80px;
+	overflow: hidden;
 	border-top: thin solid #CCCCCC;
-	overflow: hidden;
 }
 
 
@@ -62,72 +65,52 @@
 	margin-top: 10px;
 }
 
-.buttons{
-	margin-right: 10px;
+.header_buttons{
+	margin-right: 9px;
 	margin-top: 5px;
 	float: right;
 }
 
-.btn{
-	background-color: #FFFFFF;
-	border-style: groove;
-	font-family: Georgia, serif;
-	font-size: 12px;
-}
-.col{
+.row2_aboutMark div {
 	width: 225px;
 	min-height: 94px;
 	float: left;
 	margin-left: 10px;
 	margin-right: 10px;
+
 }
 
-
-.header_font{
-	font-size: 22px;
-	font-family: "Times New Roman", Georgia, Serif;
-	font-style: normal;
-	font-weight: normal;
-}
-
-.subheader{
-	margin-bottom: 0px;
-	float: left;
-	margin-left: 0px;
-}
-
-.p_margin{
+.row2_aboutMark p{
 	margin-top: 50px;
 }
 
-.client{
+.row3_left{
 	width: 50%;
-	min-height: 330px;
 	float: left;
 	margin-top: 20px;
-	border-bottom: thin solid #CCCCCC;
 	overflow: hidden;
+	margin-bottom: 20px;
 }
 
-.p_client{
-	margin-left: 10px;
-}
-
-.b_col1{
-	width: 20%;
-	background-color: white;
-	float: left;
-	overflow: hidden;
-}
-
-.b_col2{
+.row3_right{
 	width: 50%;
 	float: left;
-	border-right: thin solid #CCCCCC;
+	margin-top: 20px;
 	overflow: hidden;
 }
 
-.b_col3{
+
+.col1_news{
+	width: 70%;
+	min-height: 200px;
+	float: left;
+	overflow: hidden;
+	display: inline;
+	border-right: thin solid #CCCCCC;
+	margin-bottom: 10px;
+}
+
+.col2_news{
 	width: 29%;
 	float: left;
 	overflow: hidden;
@@ -136,18 +119,19 @@
 .icon_margin{
 	margin-top: 15px;
 }
-.left{
+.row5_left{
 	width: 70%;
 	float: left;
 }
 
-.right{
-	width: 30%;
+.row5_right{
+	min-width: 20%;
+	margin-right: 15px;
 	float: right;
 }
 
 .page_footer{
-	min-height:50px;
+	min-height:20px;
 	width: 795px;
 }
 
@@ -157,22 +141,13 @@
 	font-size: 10px;
 }
 
-.link{
+.gray{
 	color: #4E4E4E;
 }
 
-.font{
+.row5_left p{
+	font-size: 13px;
 	font-family: Georgia, serif;
-	font-weight: normal;
-}
-
-.font1{
-	font-size: 15px;
-	font-style: italic;
-}
-
-.font2{
-	font-size: 10px;
 }
 .black{
 	color: #000000;
@@ -180,34 +155,98 @@
 
 .list{
 	list-style-type:square;
+	margin-top: 10px;
 }
 
-.b_footer{
+
+.row5_right ul li{
 	display: inline;
 }
-p{
-	font-size: 14px; 
-	margin-bottom: 30px;
+
+
+.margin_right{
+	margin-right: 10px;
+	margin-left: 120px;
+}
+
+.thumbnail{
+	float: left;
+}
+
+.t1{
+	margin-top: 16px;
+}
+
+.client p{
+	margin-right: 20px;
+}
+
+.recent_news{
+	margin-left: 120px;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	font-size: 15px;
+	font-style: italic;
+	margin-top: 20px;
+}
+
+.btn{
+	background-color: #FFFFFF;
+	border-style: groove;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 12px;
+}
+
+.row2_aboutMark p{
 	color: #4E4E4E;
+}
+
+p{
+	font-size: 13px; 
+	margin-bottom: 30px;
 	font-family: Georgia, serif;
 }
-h3{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 10px;
-	font-size: 20px;
-}
+
 body{
 	background-color: #7F7F7F;
 }
 
+h2{
+	margin-bottom: 0px;
+	float: left;
+	margin-left: 0px;
+	font-size: 22px;
+	
+}
 
+h3{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 1px;
+	font-size: 30px;
+}
 
-h5{
+h4{
 	font-size: 20px;
+	margin-left: 120px;
+
 }
 
 h6{
 	margin-top: 20px;
 	margin-left: 10px;
+	font-size: 15px;
+	font-style: italic;
+}
+
+h4, h6{
+	font-family: Georgia, serif;
+	font-weight: normal;
+
+}
+
+h2, h3{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-style: normal;
+	font-weight: normal;
 }

@@ -1,0 +1,68 @@
+<div class="wrapper wrappercenter" ng-controller="AssignController">
+
+	<div ng-repeat="arr in array.project">
+		<h2>Project Name: {{arr.p_name}}</h2>
+	</div>
+	
+	<h3> New Member:</h3>
+		<div class="select">
+			<select ng-options="user.first_name for user in array.user" ng-model="select"> 
+				
+			</select> 
+			<button type="submit" id="btn-save" class="btn1" ng-click="save()">Add</button>
+		</div>
+
+		<div class="currentMembers">
+			<h4> Current Members: </h4>
+			<ul>
+				<li ng-repeat="arr in array.projAssign"> {{arr.first_name}} <button class="remove1 btn1" ng-click="delete(arr)"> Remove </button>	</li>
+			</ul>
+		</div>
+	<!--div ng-controller="pController" class="addPerson">
+		<h3> New Member: </h3>
+		<div class="select">
+			<select ng-model="name" id="user" name="user">
+				<?php
+					/*$arr = array();
+					foreach ($project_assignments as $person) {
+						array_push($arr,$person->first_name);
+					}
+
+					
+					foreach ($users as $users) {
+						if (!in_array($users->first_name, $arr)) {
+						    echo "<option ng-repeat='users in users' value='{{$users->id}}'>{$users->first_name}</option>";
+						}
+						
+					}*/
+
+
+				?>
+			</select>
+				<table> 
+				<tr ng-repeat="proj in projects "> 
+					<td> {{proj.p_name}} </td>
+				</tr>
+				</table>
+			<button  type="submit" id="btn-save" class="btn1">Add</button>
+		</div>
+	</div>
+
+	<div class="currentMembers">
+		<h4> Current Members: </h4>
+		
+		<ul id="add" name="add">
+			<?php
+				/*foreach ($project_assignments as $assigned){
+					echo ' <li class="members" id="$assigned->pid" value="$assigned->first_name"> ';
+					echo '$assigned->first_name';
+					echo '<button class="remove1 btn1" id="$assigned->first_name" value="$assigned->pid"> Remove </button>';
+					echo '<input type="hidden" id="id" value="$assigned->id"></li>';
+				}*/
+			?>
+		</ul>
+	</div-->
+</div>
+
+
+<link rel="stylesheet" type="text/css" href="css/assignments.css">

@@ -1,0 +1,102 @@
+.wrapper{
+	width: 50%;
+	min-height: 400px;
+	padding: 10px 10px 10px 10px;
+	border: 2px solid gray;
+	display: inline-block;
+	
+	
+}
+
+
+.wrappercenter{
+	margin: 40px auto 50px 300px;
+}
+h2, h3,h4{
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+
+}
+h2{
+	font-size: 15px;	
+	text-align: center;
+}
+
+h3{
+	width: 40%;
+	float: left;
+	margin-top: 20px;
+	padding-top: 12px;
+	font-size: 15px;
+}
+
+.addPerson{
+	width: 100%;
+	min-height: 10px;
+	margin: 0 auto 0 auto;
+	float: left;
+}
+
+select{
+	float: left;
+	width:170px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.currentMembers{
+	width: 100%;
+	min-height: 20px;
+	float: left;
+	margin-top: 10px;
+}
+
+h4{
+	font-weight: normal;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 0px;
+}
+
+input{
+	margin-bottom: 100px;
+}
+
+.select{
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+
+}
+
+ul{
+	width:70%;
+	margin: 0 auto 0 auto;
+}
+
+li{
+	margin: 0 auto 0 auto;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size:15px;
+	list-style-type: none;
+	width: 70%;
+	margin-bottom: 30px;
+}
+.remove1{
+	display: inline-block;
+	float: right;
+	font-size: 10px;
+	height: 10px;
+	padding-bottom: 20px;
+
+}
+
+.text{
+	margin-top: 5px;
+}
+
+.select button{
+	float: right;
+	padding-top: 10px;
+}

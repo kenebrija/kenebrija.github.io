@@ -1,0 +1,51 @@
+.button_container{
+	width:50%;
+	min-height: 50px;
+	margin:auto;
+	text-align: center;
+	margin-top: 25px;
+}
+
+
+.projects{
+	width: 60%;
+	min-height: 100px;
+	margin: 10px auto 0 auto;
+	background-color: #F7EEE1;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+a:hover{
+	color:#87765F;
+}
+tr:nth-child(even){
+	background-color: #B7B0A5
+}
+
+th {
+    background-color: #4b4843;
+    color: white;
+}
+
+td ,th{
+	height: 40px;
+	text-align: center;
+}
+
+
+table th {
+   text-align: center;   
+}
+
+
+h4{
+	text-align: center;
+}
+

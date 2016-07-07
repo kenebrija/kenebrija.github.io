@@ -1,0 +1,56 @@
+<div class="button_container" ng-controller="HomeController">
+		<button class="btn1" ng-click="toggle()">Create Project</button>
+		<a href="{{ url('persons/create') }}" class="btn1">Create Person</a>
+	</div>
+	<div class="projects">
+		<table>
+			<tr>
+				<th>Project Name</th>
+				<th>Budget</th>
+				<th>Tasks</th>
+			</tr>
+			<tr ng-repeat="proj in projects "> 
+				<td> {{proj.p_name}} </td>
+				<td class="left"> &#8369 {{proj.p_budget | number}} </td>
+				<td> <a ng-href="#/projects/assign"> Assignments </a> </td>
+			</tr>
+		</table>
+		
+	</div>
+<div class="modal" id="myModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          	<div class="modal-header">
+          		<h4>Add New Project</h4>
+         	</div>
+         	<form name="frmProjects" novalidate>
+          		<div class="modal-body">
+	            	<div class="form-group">
+	    				<div class="col-lg-25 space"> 
+	    					<label class="col-sm-3 form-control-label">Code</label>
+							<input type="text" name="code" ng-model="item.code" ng-required="true">
+						</div>
+						<div class="col-lg-25 space"> 
+	    					<label class="col-sm-3 form-control-label ">Name</label>
+							<input type="text" name="name" ng-model="item.name" ng-required="true"> 
+						</div>
+
+						<div class="col-lg-25  space"> 
+	    					<label class="col-sm-3 form-control-label ">Budget</label>
+							<input type="number" name="budget" ng-model="item.budget" ng-required="true"> 
+						</div>
+
+						<div class="col-lg-25 space"> 
+	    					<label class="col-sm-3 form-control-label ">Remarks</label>
+							<textarea name="remarks" rows="4" cols="32" ng-model="item.remarks" ng-required="true"></textarea>
+						</div>
+					</div>
+				</div>
+            </form>
+            <div class="modal-footer">
+		        <button class="btn1" ng-click="(save() && click())" ng-disabled="frmProjects.$invalid">Submit</button>
+	        </div>
+          </div>
+        </div>
+    </div>
+</div>
